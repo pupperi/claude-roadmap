@@ -6,14 +6,16 @@ A study roadmap built from the [preporato/claude-certification-guide](https://gi
 
 **Repo shortcuts**
 
+A copy of the guide repo is cloned into [`claude-certification-guide/`](./claude-certification-guide/), and the guide and question links below open that copy. To refresh it, run `git -C claude-certification-guide pull`. The timed tests are hosted online. The same test also runs offline from [`docs/index.html`](./claude-certification-guide/docs/index.html).
+
 | Exam | Guide | Practice questions | Timed test |
 |---|---|---|---|
-| CCAO-F | [guide.md](https://github.com/preporato/claude-certification-guide/blob/main/ccao-f/guide.md) | [30 Qs](https://github.com/preporato/claude-certification-guide/blob/main/ccao-f/practice-questions.md) | [test](https://preporato.github.io/claude-certification-guide/#ccao-f) |
-| CCDV-F | [guide.md](https://github.com/preporato/claude-certification-guide/blob/main/ccdv-f/guide.md) | [30 Qs](https://github.com/preporato/claude-certification-guide/blob/main/ccdv-f/practice-questions.md) | [test](https://preporato.github.io/claude-certification-guide/#ccdv-f) |
-| CCA-F | [guide.md](https://github.com/preporato/claude-certification-guide/blob/main/cca-f/guide.md) | [30 Qs](https://github.com/preporato/claude-certification-guide/blob/main/cca-f/practice-questions.md) | [test](https://preporato.github.io/claude-certification-guide/#cca-f) |
-| CCAR-P | [guide.md](https://github.com/preporato/claude-certification-guide/blob/main/ccar-p/guide.md) | [30 Qs](https://github.com/preporato/claude-certification-guide/blob/main/ccar-p/practice-questions.md) | [test](https://preporato.github.io/claude-certification-guide/#ccar-p) |
+| CCAO-F | [guide.md](./claude-certification-guide/ccao-f/guide.md) | [30 Qs](./claude-certification-guide/ccao-f/practice-questions.md) | [test](https://preporato.github.io/claude-certification-guide/#ccao-f) |
+| CCDV-F | [guide.md](./claude-certification-guide/ccdv-f/guide.md) | [30 Qs](./claude-certification-guide/ccdv-f/practice-questions.md) | [test](https://preporato.github.io/claude-certification-guide/#ccdv-f) |
+| CCA-F | [guide.md](./claude-certification-guide/cca-f/guide.md) | [30 Qs](./claude-certification-guide/cca-f/practice-questions.md) | [test](https://preporato.github.io/claude-certification-guide/#cca-f) |
+| CCAR-P | [guide.md](./claude-certification-guide/ccar-p/guide.md) | [30 Qs](./claude-certification-guide/ccar-p/practice-questions.md) | [test](https://preporato.github.io/claude-certification-guide/#ccar-p) |
 
-PDF and EPUB versions of each guide, with the practice questions at the back, are in [`downloads/`](https://github.com/preporato/claude-certification-guide/tree/main/downloads).
+PDF and EPUB versions of each guide, with the practice questions at the back, are in [`downloads/`](./claude-certification-guide/downloads).
 
 ---
 
@@ -137,7 +139,7 @@ Steps 1-3 are free and enough to tell you where you stand.
 - **Milestone:** every blueprint feature used on real work at least once
 
 ### Week 3: Calibrate
-- [ ] Take the [30 practice questions](https://github.com/preporato/claude-certification-guide/blob/main/ccao-f/practice-questions.md), or the [timed test](https://preporato.github.io/claude-certification-guide/#ccao-f)
+- [ ] Take the [30 practice questions](./claude-certification-guide/ccao-f/practice-questions.md), or the [timed test](https://preporato.github.io/claude-certification-guide/#ccao-f)
 - [ ] Take full-length timed practice tests and review every miss
 - [ ] Re-read the Part II notes for your two weakest domains
 - [ ] Final pass on evaluation and governance scenarios
@@ -187,7 +189,7 @@ Work with code open and docs.anthropic.com alongside. Build each of these:
 - **Milestone:** a working repo that exercises every item above
 
 ### Week 4: Calibrate
-- [ ] [30 practice questions](https://github.com/preporato/claude-certification-guide/blob/main/ccdv-f/practice-questions.md) / [timed test](https://preporato.github.io/claude-certification-guide/#ccdv-f)
+- [ ] [30 practice questions](./claude-certification-guide/ccdv-f/practice-questions.md) / [timed test](https://preporato.github.io/claude-certification-guide/#ccdv-f)
 - [ ] Full-length timed practice tests and per-domain review
 - [ ] Re-read Part II notes for weak domains
 - [ ] Memorize the **nine trap answers**: Flagship-everywhere, Agent-by-default, Prompt-guarantee, Cache-the-volatile, Batch-for-interactive, Everything-through-MCP, More-tools, Shared-credential, Personal-config
@@ -239,7 +241,7 @@ Use guide Part I as the reading companion while you build:
 - **Milestone:** you have run into each failure mode yourself at least once
 
 ### Days 22-30: Calibrate
-- [ ] [30 practice questions](https://github.com/preporato/claude-certification-guide/blob/main/cca-f/practice-questions.md) / [timed test](https://preporato.github.io/claude-certification-guide/#cca-f)
+- [ ] [30 practice questions](./claude-certification-guide/cca-f/practice-questions.md) / [timed test](https://preporato.github.io/claude-certification-guide/#cca-f)
 - [ ] At least two full-length, timed, scenario-format practice tests
 - [ ] Re-read Part II for your two weakest domains
 - [ ] Learn the **Golden Rule**: programmatic enforcement beats prompt-based guidance
@@ -285,7 +287,7 @@ Use guide Part I as the reading companion while you build:
 - **Milestone:** a written ADR and discovery document for a hypothetical project
 
 ### Weeks 5-6: Calibrate
-- [ ] [30 practice questions](https://github.com/preporato/claude-certification-guide/blob/main/ccar-p/practice-questions.md) / [timed test](https://preporato.github.io/claude-certification-guide/#ccar-p)
+- [ ] [30 practice questions](./claude-certification-guide/ccar-p/practice-questions.md) / [timed test](https://preporato.github.io/claude-certification-guide/#ccar-p)
 - [ ] Full-length timed 63-question practice tests. Read the per-domain breakdown closely, because with seven domains a good average can hide a failing one.
 - [ ] Drill your weakest two domains
 - [ ] Memorize the **nine trap answers**: Flagship-everywhere, Agentic-by-default, Prompt-guarantee, Context-stuffing, Mega-agent, Skip-discovery, All-or-nothing HITL, Aggregate-metric, Single-framework
